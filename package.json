@@ -1,5 +1,7 @@
 {
   "name": "@khv/webz-cli",
+  "repository": "https://github.com/mudcrab/webz-cli",
+  "author": "Jevgeni Sillar <js@pitfire.io>",
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
