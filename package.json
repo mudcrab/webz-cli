@@ -1,0 +1,13 @@
+{
+  "name": "@khv/webz-cli",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "args": "^5.0.1",
+    "npm": "^6.14.5"
+  },
+  "bin": {
+    "webz": "./cli.js"
+  }
+}

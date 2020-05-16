@@ -1,0 +1,6 @@
+import { init } from '@khv/webz/config';
+
+init({
+	controllers: './controllers',
+	enableSystemController: true
+});

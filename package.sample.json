@@ -1,0 +1,27 @@
+{
+  "name": "",
+  "version": "1.0.0",
+  "main": "build/index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon --config node_modules/@khv/webz/nodemon.json .",
+    "build": "yarn tsc && cp package.json build/package.json",
+    "start": "ts-node src/index.ts"
+  },
+  "devDependencies": {
+    "class-transformer": "^0.2.3",
+    "class-validator": "^0.12.2",
+    "dotenv": "^8.2.0",
+    "reflect-metadata": "^0.1.13",
+    "routing-controllers": "^0.8.1",
+    "ts-node": "^8.10.1",
+    "typedi": "^0.8.0",
+    "typescript": "^3.9.2"
+  },
+  "dependencies": {
+    "@khv/webz": "^1.0.5",
+    "knex": "^0.21.1",
+    "nodemon": "^2.0.4",
+    "objection": "^2.1.3"
+  }
+}
