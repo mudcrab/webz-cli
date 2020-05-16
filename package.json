@@ -11,5 +11,8 @@
   },
   "bin": {
     "webz": "./cli.js"
+  },
+  "scripts": {
+    "pub": "npm publish --access public"
   }
 }
